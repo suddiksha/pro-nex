@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+
+
+
+.cap-sec{
+    padding: 0px 60px;
+    margin-top: 100px;
+}
+
+
+.inno-img{
+    width: 100%;
+    height: auto;
+}
+.inno{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #F58557;
+    margin-top: 80px;
+}
+.inno-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 15px; 
+}
+.custom-sec{
+    margin-top: 100px;
+}
+.custom{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 30px;   
+    text-align: center;
+}
+.cus-card{
+    width: 100%;
+    height: 270px;
+    padding: 20px 0px;
+    display: flex;
+justify-content: center; 
+align-items: center;
+border-radius: 26px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+
+}
+.design {
+    width: 74px; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.cus-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 13px;  
+    text-align: center;
+    padding: 0px 20px;
+}
+.cus-para1{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 13px;  
+    text-align: center;
+    padding: 0px 20px;
+
+}
+.cus-para2{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 13px;  
+    text-align: center;
+    padding: 0px 46px;
+
+}
+.state-sec{
+    margin-top: 100px;
+}
+.state-img{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+.state{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #F58557;
+    margin-top: 80px;
+}
+.state-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 15px; 
+}
+
+
+@media screen and (max-width: 1200px){
+
+
+    .inno{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        color: #F58557;
+        margin-top: 40px;
+    }
+
+    .inno-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 14px; 
+    }
+    .state{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        color: #F58557;
+        margin-top: 50px;
+    }
+    .state-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 14px; 
+    }
+    .cus-card{
+        width: 100%;
+        height: 270px;
+        padding: 20px 0px;
+        display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 26px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    
+    }
+    .cus-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 12px;  
+        text-align: center;
+        padding: 0px 15px;
+    }
+    .cus-para1{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 12px;  
+        text-align: center;
+        padding: 0px 18px;
+    
+    }
+    .cus-para2{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 12px;  
+        text-align: center;
+        padding: 0px 24px;
+    
+    }.custom{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 28px;   
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+
+    .inno{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        color: #F58557;
+        margin-top: 20px;
+    }
+
+    .inno-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 12px; 
+    }
+    .state{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 23px;
+        color: #F58557;
+        margin-top: 50px;
+    }
+    .state-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 12px; 
+    }
+   
+    .cus-card{
+        width: 100%;
+        height: 240px;
+        padding: 20px 0px;
+        display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 26px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    
+    }
+    .design {
+        width: 68px; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+    }
+    .custom{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 26px;   
+        text-align: center;
+    }
+    
+    .cus-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 10px;  
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .cus-para1{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 10px;  
+        text-align: center;
+        padding: 0px 14px;
+    
+    }
+    .cus-para2{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 10px;  
+        text-align: center;
+        padding: 0px 20px;
+    
+    }
+}
+
+@media screen and (max-width: 800px){
+
+
+    .inno{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        color: #F58557;
+        margin-top: 20px;
+    }
+
+    .inno-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 11px; 
+    }
+    .state{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        color: #F58557;
+        margin-top: 40px;
+    }
+    .state-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 11px; 
+    }
+    .cus-card{
+        width: 100%;
+        height: 220px;
+        padding: 20px 0px;
+        display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 26px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    
+    }
+    .design {
+        width: 60px; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+    }
+    .custom{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 24px;   
+        text-align: center;
+    }
+    
+    .cus-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 9px;  
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .cus-para1{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 9px;  
+        text-align: center;
+        padding: 0px 14px;
+    
+    }
+    .cus-para2{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 9px;  
+        text-align: center;
+        padding: 0px 20px;
+    
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .cap-sec{
+        padding: 0px 20px;
+        
+    }
+
+    .inno{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        color: #F58557;
+        margin-top: 20px;
+    }
+
+    .inno-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 20px; 
+    }
+    .state{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        color: #F58557;
+        margin-top: 40px;
+    }
+    .state-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 20px; 
+    }
+    .cus-card{
+        width: 100%;
+        height: 300px;
+        padding: 20px 0px;
+        display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 26px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    
+    }
+    .design {
+        width: 80px; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+    }
+    .custom{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 32px;   
+        text-align: center;
+    }
+    
+    .cus-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 20px;  
+        text-align: center;
+        padding: 0px 80px;
+    }
+    
+.inno-img{
+    width: 100%;
+    height: auto;
+}
+   
+    .state-img{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+
+    .cap-sec{
+        padding: 0px 10px;
+        
+    }
+
+    .inno{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        color: #F58557;
+        margin-top: 20px;
+    }
+
+    .inno-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 18px; 
+    }
+    .state{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        color: #F58557;
+        margin-top: 40px;
+    }
+    .state-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 18px; 
+    }
+    .cus-card{
+        width: 100%;
+        height: 300px;
+        padding: 20px 0px;
+        display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 26px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    
+    }
+    .design {
+        width: 70px; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+    }
+    .custom{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 30px;   
+        text-align: center;
+    }
+    
+    .cus-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 18px;  
+        text-align: center;
+        padding: 0px 40px;
+    }
+    
+.inno-img{
+    width: 100%;
+    height: auto;
+}
+   
+    .state-img{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .cap-sec{
+        padding: 0px 10px;
+        
+    }
+
+    .inno{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        color: #F58557;
+        margin-top: 20px;
+    }
+
+    .inno-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 16px; 
+    }
+    .state{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        color: #F58557;
+        margin-top: 40px;
+    }
+    .state-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 16px; 
+    }
+    .cus-card{
+        width: 100%;
+        height: 300px;
+        padding: 20px 0px;
+        display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 26px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    
+    }
+    .design {
+        width: 70px; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+    }
+    .custom{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 26px;   
+        text-align: center;
+    }
+    
+    .cus-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 16px;  
+        text-align: center;
+        padding: 0px 30px;
+    }
+    
+.inno-img{
+    width: 100%;
+    height: auto;
+}
+   
+    .state-img{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 450px){
+
+    .cap-sec{
+        padding: 0px 10px;
+        
+    }
+
+    .inno{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        color: #F58557;
+        margin-top: 20px;
+    }
+
+    .inno-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 12px; 
+    }
+    .state{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        color: #F58557;
+        margin-top: 40px;
+    }
+    .state-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300;
+        font-size: 12px; 
+    }
+    .cus-card{
+        width: 100%;
+        height: 300px;
+        padding: 20px 0px;
+        display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 26px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    
+    }
+    .design {
+        width: 70px; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+    }
+    .custom{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 22px;   
+        text-align: center;
+    }
+    
+    .cus-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 12px;  
+        text-align: center;
+        padding: 0px 10px;
+    }
+    
+.inno-img{
+    width: 100%;
+    height: auto;
+}
+   
+    .state-img{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
+
+}

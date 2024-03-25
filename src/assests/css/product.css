@@ -1,0 +1,791 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+
+
+
+.vigor-sec{
+    padding: 0px 60px;
+    /* margin-top: -150px; */
+    margin-top: 100px;
+}
+
+
+.product{
+    z-index: 1;
+}
+
+.vigor{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #f25e53;
+}
+.best{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 32px; 
+    text-align: center;
+color:black;
+}
+.you{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 28px;
+    text-align: center;
+
+}
+.vig{
+    color: #f25e53;
+}
+.vig-img{
+   width: 100%;
+position: relative;
+right: 130px;
+z-index: -1;
+}
+.vigor-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 18px;
+}
+.vigor-points{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 19px;
+}
+.vivid-sec{
+    padding: 0px 60px;
+    margin-top: 100px;
+}
+.vid{
+    color: #f25e53;
+}
+.vivid{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #f25e53;
+}
+.ultra{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 32px; 
+    text-align: center;
+color:black;
+}
+.you1{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 28px;
+    text-align: center;
+
+}
+.vid-img{
+    width: 100%;
+ position: relative;
+ left: 130px;
+ z-index: -1;
+ }
+ .vivid-para{
+     font-family: "Outfit", sans-serif;
+     font-weight: 400; 
+     font-size: 18px;
+ }
+ .vivid-points{
+     font-family: "Outfit", sans-serif;
+     font-weight: 400; 
+     font-size: 19px;
+ }
+
+ @media screen and (max-width:1200px){
+/*     
+.vigor-sec{
+    margin-top: -300px;
+} */
+ }
+
+
+  @media screen and (max-width:992px){
+    /* .vigor-sec{
+        margin-top: -260px;
+    } */
+   
+      .vig-img{
+        width: 100%;
+     position: relative;
+     right: 130px;
+     top:20px;
+     z-index: -1;
+     }
+     .vigor{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        color: #f25e53;
+    }
+    .best{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 30px; 
+        text-align: center;
+    color:black;
+    }
+    .you{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 26px;
+        text-align: center;
+    
+    }
+     .vigor-para{
+         font-family: "Outfit", sans-serif;
+         font-weight: 400; 
+         font-size: 15px;
+     }
+     .vigor-points{
+         font-family: "Outfit", sans-serif;
+         font-weight: 400; 
+         font-size: 16px;
+     }
+     .vid-img{
+        width: 100%;
+     position: relative;
+     left: 130px;
+     top:20px;
+     z-index: -1;
+     }
+     .vivid{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        color: #f25e53;
+    }
+    .ultra{
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        font-size: 30px; 
+        text-align: center;
+    color:black;
+    }
+    .you1{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 26px;
+        text-align: center;
+    
+    }
+     .vivid-para{
+         font-family: "Outfit", sans-serif;
+         font-weight: 400; 
+         font-size: 15px;
+     }
+     .vivid-points{
+         font-family: "Outfit", sans-serif;
+         font-weight: 400; 
+         font-size: 16px;
+     }
+    }
+
+
+    
+  @media screen and (max-width:800px){
+    /* .vigor-sec{
+        margin-top: -280px;
+    } */
+    
+    .vig-img{
+      width: 100%;
+   position: relative;
+   right: 120px;
+   top:15px;
+   z-index: -1;
+   }
+   .vigor{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #f25e53;
+}
+.best{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 28px; 
+    text-align: center;
+color:black;
+}
+.you{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 24px;
+    text-align: center;
+
+}
+   .vigor-para{
+       font-family: "Outfit", sans-serif;
+       font-weight: 400; 
+       font-size: 14px;
+   }
+   .vigor-points{
+       font-family: "Outfit", sans-serif;
+       font-weight: 400; 
+       font-size: 15px;
+   }
+   .vid-img{
+      width: 100%;
+   position: relative;
+   left: 120px;
+   top:15px;
+   z-index: -1;
+   }
+   .vivid{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #f25e53;
+}
+.ultra{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 28px; 
+    text-align: center;
+color:black;
+}
+.you1{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 24px;
+    text-align: center;
+
+}
+   .vivid-para{
+       font-family: "Outfit", sans-serif;
+       font-weight: 400; 
+       font-size: 14px;
+   }
+   .vivid-points{
+       font-family: "Outfit", sans-serif;
+       font-weight: 400; 
+       font-size: 15px;
+   }
+  }
+ /* /vigor phone-size */
+
+ @media screen and (max-width:768px){
+ 
+  .vigor-phone{
+    padding: 0px 20px;
+    /* margin-top: -300px; */
+}
+    
+    .vig-img{
+      width: 100%;
+   right: 0px;
+   top:0px;
+   z-index: -1;
+   }
+   .vigor{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    color: #f25e53;
+}
+.best{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 26px; 
+    text-align: center;
+color:black;
+}
+.you{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 20px;
+    text-align: center;
+
+}
+   .vigor-para{
+       font-family: "Outfit", sans-serif;
+       font-weight: 400; 
+       font-size: 19px;
+   }
+   .vigor-points{
+       font-family: "Outfit", sans-serif;
+       font-weight: 400; 
+       font-size: 20px;
+   }
+   .vid-img{
+    width: 100%;
+    right: 0px;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+   }
+   .vivid{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    color: #f25e53;
+}
+.ultra{
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 26px; 
+    text-align: center;
+color:black;
+}
+.you1{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 20px;
+    text-align: center;
+
+}
+   .vivid-para{
+       font-family: "Outfit", sans-serif;
+       font-weight: 400; 
+       font-size: 19px;
+   }
+   .vivid-points{
+       font-family: "Outfit", sans-serif;
+       font-weight: 400; 
+       font-size: 20px;
+   }
+  }
+
+  @media screen and (max-width:576px){
+    .vigor-phone{
+      padding: 0px 10px;
+      /* margin-top: -320px; */
+
+    }
+      
+      .vig-img{
+        width: 100%;
+     right: 0px;
+     top:0px;
+     z-index: -1;
+     }
+     .vigor{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 36px;
+      text-align: center;
+      color: #f25e53;
+  }
+  .best{
+      font-family: "Outfit", sans-serif;
+      font-weight: 600;
+      font-size: 24px; 
+      text-align: center;
+  color:black;
+  }
+  .you{
+      font-family: "Outfit", sans-serif;
+      font-weight: 400; 
+      font-size: 19px;
+      text-align: center;
+  
+  }
+     .vigor-para{
+         font-family: "Outfit", sans-serif;
+         font-weight: 400; 
+         font-size:18px;
+     }
+     .vigor-points{
+         font-family: "Outfit", sans-serif;
+         font-weight: 400; 
+         font-size: 19px;
+     }
+     .vid-img{
+      width: 100%;
+      right: 0px;
+      top:0px;
+      left: 0px;
+      z-index: -1;
+     }
+     .vivid{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 36px;
+      text-align: center;
+      color: #f25e53;
+  }
+  .ultra{
+      font-family: "Outfit", sans-serif;
+      font-weight: 600;
+      font-size: 24px; 
+      text-align: center;
+  color:black;
+  }
+  .you1{
+      font-family: "Outfit", sans-serif;
+      font-weight: 400; 
+      font-size: 19px;
+      text-align: center;
+  
+  }
+     .vivid-para{
+         font-family: "Outfit", sans-serif;
+         font-weight: 400; 
+         font-size: 18px;
+     }
+     .vivid-points{
+         font-family: "Outfit", sans-serif;
+         font-weight: 400; 
+         font-size: 19px;
+     }
+    }
+  
+
+
+    @media screen and (max-width:510px){
+        .vigor-phone{
+            padding: 0px 10px;
+            /* margin-top: -340px; */
+      
+          }
+          
+          .vig-img{
+            width: 100%;
+         right: 0px;
+         top:0px;
+         z-index: -1;
+         }
+         .vigor{
+          font-family: "Outfit", sans-serif;
+          font-weight: bold;
+          font-size: 34px;
+          text-align: center;
+          color: #f25e53;
+      }
+      .best{
+          font-family: "Outfit", sans-serif;
+          font-weight: 600;
+          font-size: 20px; 
+          text-align: center;
+      color:black;
+      }
+      .you{
+          font-family: "Outfit", sans-serif;
+          font-weight: 400; 
+          font-size: 17px;
+          text-align: center;
+      
+      }
+         .vigor-para{
+             font-family: "Outfit", sans-serif;
+             font-weight: 400; 
+             font-size:16x;
+         }
+         .vigor-points{
+             font-family: "Outfit", sans-serif;
+             font-weight: 400; 
+             font-size: 17px;
+         }
+         .vid-img{
+          width: 100%;
+          right: 0px;
+          top:0px;
+          left: 0px;
+          z-index: -1;
+         }
+         .vivid{
+          font-family: "Outfit", sans-serif;
+          font-weight: bold;
+          font-size: 34px;
+          text-align: center;
+          color: #f25e53;
+      }
+      .ultra{
+          font-family: "Outfit", sans-serif;
+          font-weight: 600;
+          font-size: 20px; 
+          text-align: center;
+      color:black;
+      }
+      .you1{
+          font-family: "Outfit", sans-serif;
+          font-weight: 400; 
+          font-size: 17px;
+          text-align: center;
+      
+      }
+         .vivid-para{
+             font-family: "Outfit", sans-serif;
+             font-weight: 400; 
+             font-size: 16px;
+         }
+         .vivid-points{
+             font-family: "Outfit", sans-serif;
+             font-weight: 400; 
+             font-size: 17px;
+         }
+        }
+
+
+        @media screen and (max-width:460px){
+            .vigor-phone{
+                padding: 0px 10px;
+                /* margin-top: -360px; */
+          
+              }
+              
+              .vig-img{
+                width: 100%;
+             right: 0px;
+             top:0px;
+             z-index: -1;
+             }
+             .vigor{
+              font-family: "Outfit", sans-serif;
+              font-weight: bold;
+              font-size: 34px;
+              text-align: center;
+              color: #f25e53;
+          }
+          .best{
+              font-family: "Outfit", sans-serif;
+              font-weight: 600;
+              font-size: 18px; 
+              text-align: center;
+          color:black;
+          }
+          .you{
+              font-family: "Outfit", sans-serif;
+              font-weight: 400; 
+              font-size: 14px;
+              text-align: center;
+          
+          }
+             .vigor-para{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size:15px;
+             }
+             .vigor-points{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size: 16px;
+             }
+             .vid-img{
+              width: 100%;
+              right: 0px;
+              top:0px;
+              left: 0px;
+              z-index: -1;
+             }
+             .vivid{
+              font-family: "Outfit", sans-serif;
+              font-weight: bold;
+              font-size: 34px;
+              text-align: center;
+              color: #f25e53;
+          }
+          .ultra{
+              font-family: "Outfit", sans-serif;
+              font-weight: 600;
+              font-size: 20px; 
+              text-align: center;
+          color:black;
+          }
+          .you1{
+              font-family: "Outfit", sans-serif;
+              font-weight: 400; 
+              font-size: 14px;
+              text-align: center;
+          
+          }
+             .vivid-para{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size: 15px;
+             }
+             .vivid-points{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size: 16px;
+             }
+            }
+
+
+            
+        @media screen and (max-width:382px){
+            .vigor-phone{
+                padding: 0px 10px;
+                /* margin-top: -390px; */
+          
+              }
+              
+              .vig-img{
+                width: 100%;
+             right: 0px;
+             top:0px;
+             z-index: -1;
+             }
+             .vigor{
+              font-family: "Outfit", sans-serif;
+              font-weight: bold;
+              font-size: 32px;
+              text-align: center;
+              color: #f25e53;
+          }
+          .best{
+              font-family: "Outfit", sans-serif;
+              font-weight: 600;
+              font-size: 16px; 
+              text-align: center;
+          color:black;
+          }
+          .you{
+              font-family: "Outfit", sans-serif;
+              font-weight: 400; 
+              font-size: 12px;
+              text-align: center;
+          
+          }
+             .vigor-para{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size:14px;
+             }
+             .vigor-points{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size: 15px;
+             }
+             .vid-img{
+              width: 100%;
+              right: 0px;
+              top:0px;
+              left: 0px;
+              z-index: -1;
+             }
+             .vivid{
+              font-family: "Outfit", sans-serif;
+              font-weight: bold;
+              font-size: 32px;
+              text-align: center;
+              color: #f25e53;
+          }
+          .ultra{
+              font-family: "Outfit", sans-serif;
+              font-weight: 600;
+              font-size: 16px; 
+              text-align: center;
+          color:black;
+          }
+          .you1{
+              font-family: "Outfit", sans-serif;
+              font-weight: 400; 
+              font-size: 12px;
+              text-align: center;
+          
+          }
+             .vivid-para{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size: 14px;
+             }
+             .vivid-points{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size: 15px;
+             }
+            }
+
+
+
+                 
+        @media screen and (max-width:330px){
+            .vigor-phone{
+              padding: 0px 10px;
+              /* margin-top: -400px; */
+
+            }
+              
+              .vig-img{
+                width: 100%;
+             right: 0px;
+             top:0px;
+             z-index: -1;
+             }
+             .vigor{
+              font-family: "Outfit", sans-serif;
+              font-weight: bold;
+              font-size: 32px;
+              text-align: center;
+              color: #f25e53;
+          }
+          .best{
+              font-family: "Outfit", sans-serif;
+              font-weight: 600;
+              font-size: 15px; 
+              text-align: center;
+          color:black;
+          }
+          .you{
+              font-family: "Outfit", sans-serif;
+              font-weight: 400; 
+              font-size: 10px;
+              text-align: center;
+          
+          }
+             .vigor-para{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size:12px;
+             }
+             .vigor-points{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size: 13px;
+             }
+             .vid-img{
+              width: 100%;
+              right: 0px;
+              top:0px;
+              left: 0px;
+              z-index: -1;
+             }
+             .vivid{
+              font-family: "Outfit", sans-serif;
+              font-weight: bold;
+              font-size: 32px;
+              text-align: center;
+              color: #f25e53;
+          }
+          .ultra{
+              font-family: "Outfit", sans-serif;
+              font-weight: 600;
+              font-size: 15px; 
+              text-align: center;
+          color:black;
+          }
+          .you1{
+              font-family: "Outfit", sans-serif;
+              font-weight: 400; 
+              font-size: 10px;
+              text-align: center;
+          
+          }
+             .vivid-para{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size: 13px;
+             }
+             .vivid-points{
+                 font-family: "Outfit", sans-serif;
+                 font-weight: 400; 
+                 font-size: 14px;
+             }
+            }

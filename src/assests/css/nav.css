@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+ .bg {
+    /* background-image: url("../img/nav4.svg"); 
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 85vh;
+    z-index: -1; */
+    background-color:white;
+  } 
+   
+  nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 60px;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+  
+  .nexigo {
+    width: 90px;
+    height: auto;
+margin-left:60px; 
+
+}
+  
+  nav li {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  .logo {
+    float: left;
+  }
+
+
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: #ffffff;
+  float: right;
+  margin-right: 60px;
+
+}
+
+.product-btn.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: #f5855b;
+  color: white;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
+  font-size: 13.124px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 26px;
+}
+.product-btn.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  box-shadow: none;
+}
+.product-btn.css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: white;
+  color: #f4815a;
+  font-family: "Outfit", sans-serif;
+  border-radius: 26px;
+}
+
+
+
+@media screen and (max-width:992px){
+
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
+  /* .bg {
+
+    width: 100%;
+    height: 60vh;
+  }  */
+}
+
+@media screen and (max-width:768px){
+   
+  .menu-button {
+    
+    margin-right: 20px;
+  
+  }
+
+  .nexigo {
+    width: 60px;
+    height: auto;
+margin-left:20px; 
+
+}
+/* .bg {
+
+  width: 100%;
+  height: 50vh;
+}  */
+  
+}
+@media screen and (max-width:576px){
+
+ 
+  /* .bg {
+
+    width: 100%;
+    height: 30vh;
+  }  */
+}
+
+@media screen and (max-width:400px){
+   
+  .menu-button {
+    width: 20px;
+    margin-right: 10px;
+  
+  }
+
+  .nexigo {
+    width: 50px;
+    height: auto;
+margin-left:10px; 
+
+}
+
+  
+}
+
+

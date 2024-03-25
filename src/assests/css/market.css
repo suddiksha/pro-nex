@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+
+
+
+
+
+.light-img {
+    width: 100%;
+    height: auto;
+    z-index: 1000; 
+    margin-top: -50px;
+    position: relative; 
+}
+.indus-img {
+    width: 100%;
+    height: auto;
+    z-index: 1000; 
+   
+}
+.energy-img {
+    width: 100%;
+    height: auto;
+    z-index: 1000; 
+   
+}
+.industrial-sec{
+    margin-top: 150px;
+}
+.energy-sec{
+    margin-top: 150px;
+}
+.market-page{
+    padding: 0px 60px;
+    /* margin-top: -300px; */
+    margin-top: 100px;
+
+}
+.mar{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #F58557;
+}
+
+.mar-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 123.1%;
+}
+
+
+
+
+@media screen and (max-width:1200px){
+    .market-page{
+        /* margin-top: -200px; */
+    }
+    .light-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+        /* margin-top: -100px; */
+        position: relative; 
+    }
+    .mar{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        color: #F58557;
+    }
+    
+    .mar-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 123.1%;
+    }
+}
+
+@media screen and (max-width:992px){
+    .market-page{
+        /* margin-top: -400px; */
+    }
+    .light-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+        margin-top: 5px;
+        
+    }
+   
+    .mar{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        color: #F58557;
+    }
+    
+    .mar-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 123.1%;
+    }
+}
+
+
+@media screen and (max-width:840px){
+  
+    .light-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+        
+    }
+   
+    .mar{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        color: #F58557;
+    }
+    
+    .mar-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 123.1%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .market-page{
+        padding: 0px 20px;
+    }
+    .light-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+    }
+    .indus-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+       
+    }
+    .energy-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+       
+    }
+    .mar{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        color: #F58557;
+    }
+    .mar-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 123.1%;
+    }
+    
+}
+
+@media screen and (max-width:576px){
+    .market-page{
+        padding: 0px 10px;
+    }
+    .industrial-sec{
+        margin-top: 80px;
+    }
+    .energy-sec{
+        margin-top: 80px;
+    }
+    .light-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+    }
+    .indus-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+       
+    }
+    .energy-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+       
+    }
+    .mar{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: #F58557;
+    }
+    .mar-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 123.1%;
+    }
+    
+}
+        
+
+@media screen and (max-width:450px){
+    .market-page{
+        padding: 0px 10px;
+    }
+    .light-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+    }
+    .indus-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+       
+    }
+    .energy-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+       
+    }
+    .mar{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        color: #F58557;
+    }
+    .mar-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 123.1%;
+    }
+    
+}
+        
+@media screen and (max-width:360px){
+    .market-page{
+        padding: 0px 10px;
+    }
+    .light-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+    }
+    .indus-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+       
+    }
+    .energy-img {
+        width: 100%;
+        height: auto;
+        z-index: 1000; 
+       
+    }
+    .mar{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: #F58557;
+    }
+    .mar-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 123.1%;
+    }
+    
+}

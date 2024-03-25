@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+
+
+
+
+  .about-us{
+    padding: 0px 60px;
+    margin-top: 100px;
+  }
+  .about{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #F58557;
+  }
+  .about-img{
+    width: 100%;
+    height: auto;
+   
+  }
+  .about-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .vision-img{
+    width: 100%;
+    height: auto;
+  }
+  .vision-sec{
+    margin-top: 150px;
+  }
+  .our{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 100px;
+
+  }
+  .vision{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #F58557;
+
+  }
+  .vision-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+margin-left: 0px;
+  }
+  .mis{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 80px;
+
+  }
+  .mission-sec{
+    margin-top: 150px;
+  }
+  .mission-img{
+    width: 100%;
+    height: auto;
+  }
+  .mission{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #F58557;
+
+  }
+  .mission-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .core-img{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+  }
+  .core{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .provide{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .img1{
+    width: 100%;
+    height: auto;
+  }
+  .core-head{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .points{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+
+  @media screen and (max-width:1200px){
+   
+  
+  .about-us{
+    /* padding: 0px 60px; */
+    /* margin-top: -200px; */
+  }
+ 
+  .about-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .about{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    color: #F58557;
+  }
+  .vision-img{
+    width: 100%;
+    height: auto;
+  }
+  .vision-sec{
+    margin-top: 150px;
+  }
+  .our{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 100px;
+
+  }
+  .vision{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #F58557;
+
+  }
+  .vision-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+margin-left: 0px;
+  }
+  .mis{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 80px;
+
+  }
+  .mission-sec{
+    margin-top: 150px;
+  }
+  .mission-img{
+    width: 100%;
+    height: auto;
+  }
+  .mission{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #F58557;
+
+  }
+  .mission-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .core-img{
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+  }
+  .core{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .provide{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .img1{
+    width: 100%;
+    height: auto;
+  }
+  .core-head{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .points{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+  }
+
+  }
+
+  
+  @media screen and (max-width:992px){
+   
+  
+  .about-us{
+    /* padding: 0px 60px; */
+    /* margin-top: -200px; */
+  }
+  .about-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .about{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #F58557;
+  }
+  .vision-img{
+    width: 100%;
+    height: auto;
+  }
+  .vision-sec{
+    margin-top: 150px;
+  }
+  .our{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    margin-top: 60px;
+
+  }
+  .vision{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #F58557;
+
+  }
+  .vision-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+margin-left: 0px;
+  }
+  .mis{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    margin-top: 40px;
+
+  }
+  .mission-sec{
+    margin-top: 150px;
+  }
+  .mission-img{
+    width: 100%;
+    height: auto;
+  }
+  .mission{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #F58557;
+
+  }
+  .mission-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .core-img{
+    width: 100%;
+    height: auto;
+    margin-top: 140px;
+  }
+  .core{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .provide{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .img1{
+    width: 100%;
+    height: auto;
+  }
+  .core-head{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .points{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+  }
+
+  }
+  @media screen and (max-width:800px){
+    
+  
+  .about-us{
+    /* padding: 0px 60px; */
+    /* margin-top: -220px; */
+  }
+  .about-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+  }
+  .about{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #F58557;
+  }
+  .vision-img{
+    width: 100%;
+    height: auto;
+  }
+  .vision-sec{
+    margin-top: 150px;
+  }
+  .our{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 40px;
+
+  }
+  .vision{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #F58557;
+
+  }
+  .vision-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+margin-left: 0px;
+  }
+  .mis{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 20px;
+
+  }
+  .mission-sec{
+    margin-top: 150px;
+  }
+  .mission-img{
+    width: 100%;
+    height: auto;
+  }
+  .mission{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #F58557;
+
+  }
+  .mission-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+  }
+  .core-img{
+    width: 100%;
+    height: auto;
+    margin-top: 180px;
+  }
+  .core{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .provide{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+  }
+
+  .img1{
+    width: 100%;
+    height: auto;
+  }
+  .core-head{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .points{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-size: 8px;
+  }
+  }
+  @media screen and (max-width:768px){
+    
+  
+    .about-us{
+      padding: 0px 20px;
+    }
+    .about-para{
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 22px;
+    }
+    .about{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 38px;
+      color: #F58557;
+    }
+    .vision-img{
+      width: 100%;
+      height: auto;
+    }
+    .vision-sec{
+      margin-top: 80px;
+    }
+    .our{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 36px;
+      margin-top: 40px;
+  
+    }
+    .vision{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 36px;
+      color: #F58557;
+  
+    }
+    .vision-para{
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+  margin-left: 0px;
+    }
+    .mis{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 36px;
+      margin-top: 0px;
+  
+    }
+    .mission-sec{
+      margin-top: 80px;
+    }
+    .mission-img{
+      width: 100%;
+      height: auto;
+    }
+    .mission{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 36px;
+      color: #F58557;
+  
+    }
+    .mission-para{
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+    }
+    .core-img{
+      width: 100%;
+      height: auto;
+      margin-top: 180px;
+    }
+    .core{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 34px;
+      text-align: center;
+      margin-top: 100px;
+    }
+    .provide{
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 10px;
+    }
+  
+    .img1{
+      width: 100%;
+      height: auto;
+    }
+    .core-head{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 10px;
+    }
+    .points{
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 8px;
+    }
+    }

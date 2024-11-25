@@ -17,16 +17,11 @@ function Cap() {
       <div className="cap-sec">
         {isCap ? (
           <div className="cap-phone">
-
-<div className="innovation-sec">
+            <div className="innovation-sec">
               <div className="row justify-content-center">
-                
-              
-                
                 <div className="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11">
                   <h3 className="inno text-center">Innovation</h3>
                   <img src={Cap1} alt="cap" className="inno-img mt-5"></img>
-
                   <ul className="inno-para  mt-5">
                     <li>Patent Pending Thermal Management Techniques</li>
                     <li>Efficiency improvement in power and energy delivery</li>
@@ -47,17 +42,14 @@ function Cap() {
               </div>
             </div>
 
-
-
             <div className="custom-sec">
               <div className="row justify-content-evenly mt-5">
-              <h3 className="custom">Custom Design</h3>
+                <h3 className="custom">Custom Design</h3>
 
                 <div className="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10 mt-5">
                   <div className="card cus-card">
                     <div className="row justify-content-center">
                       <div className="col-12">
-
                         <img src={Cus1} alt="design" className="design"></img>
                         <p className="cus-para mt-3">
                           Our innovations are scalable and modular to fit in to
@@ -97,12 +89,12 @@ function Cap() {
               </div>
             </div>
 
-
             <div className="state-sec">
               <div className="row justify-content-center">
-              
                 <div className="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 p=0">
-                  <h3 className="state text-center">State of the Art R&D LAB</h3>
+                  <h3 className="state text-center">
+                    State of the Art R&D LAB
+                  </h3>
                   <img src={Cap2} alt="cap" className="state-img mt-5"></img>
 
                   <ul className="state-para mt-5">
@@ -122,22 +114,8 @@ function Cap() {
                     </li>
                   </ul>
                 </div>
-               
               </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
           </div>
         ) : (
           <>

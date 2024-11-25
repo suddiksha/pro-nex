@@ -13,7 +13,7 @@ function Model(props) {
 function B1() {
   return (
     <>
-      <Canvas className="custom-canvas mb-5" dpr={[1, 2]} camera={{ fov: 45 }} style={{ position: "absolute", width: "60%", height: "60%" }}>
+      <Canvas className="custom-canvas " dpr={[1, 2]} camera={{ fov: 45 }} style={{ position: "absolute", width: "60%", height: "60%" }}>
         <ambientLight intensity={1.5} /> 
         <PresentationControls speed={1.5} global zoom={1.2}>
           <Stage environment={null}>

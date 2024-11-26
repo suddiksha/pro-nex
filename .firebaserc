@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "nexigo24-b281b",
-    "staging": "pro-nex"
+    "default": "nexigore",
+    "staging": "nexigore"
   },
   "targets": {},
   "etags": {}

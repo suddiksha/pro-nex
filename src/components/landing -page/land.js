@@ -20,6 +20,7 @@ function Land() {
         controls={false} 
         indicators={false}
         interval={3000}
+        className="car"
       >
         <Carousel.Item style={{ backgroundColor: "white" }}>
           <div className="row justify-content-start"  >

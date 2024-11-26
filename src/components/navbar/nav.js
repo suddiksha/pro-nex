@@ -1,82 +1,64 @@
-import "../../assests/css/nav.css";
 import Logo from "../../assests/img/logo.png";
-import { useState } from "react";
-import { useMediaQuery } from "react-responsive";
-import MenuIcon from "@mui/icons-material/Menu";
-import Button from "@mui/material/Button";
+import { useState } from 'react';
+import { motion, AnimatePresence } from "framer-motion";
 
-function Nav() {
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 900px)" });
+import "../../assests/css/nav.css";
+import Button from '@mui/material/Button';
+import MenuIcon from '@mui/icons-material/Menu';
+import { useMediaQuery } from "react-responsive";
+function Navbar() {
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 900px)' });
   const [showDropdown, setShowDropdown] = useState(false);
 
   const toggleDropdown = () => {
     setShowDropdown(!showDropdown);
   };
+
   return (
-    <>
-    <div className="bg">
-      <nav className="navbar" >
-       
-      <li className="logo">
-              <a href="/">
-                <img src={Logo} alt="Logo" className="nexigo mt-2" />
-              </a>
+    <nav className="navbar navbar-light">
+      <div className="container-fluid">
+        {isTabletOrMobile && (
+          <button className="menu-button" onClick={toggleDropdown}>
+            <MenuIcon className="menu" />
+          </button>
+        )}
+        <a className="navbar-brand text-center" href="/">
+          <img src={Logo} alt="" className="d-inline-block logo align-text-top" />
+        </a>
+
+        <AnimatePresence>
+          {showDropdown && isTabletOrMobile && (
+            <motion.div className="dropdown"
+              initial={{ opacity: 0, y: -50 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -100 }}
+              transition={{ duration: 0.5 }}>
+              <div className="content">
+                <a href="/product">PRODUCTS</a>
+                <a href="/market">MARKETS</a>
+                <a href="/cap">CAPABILITIES</a>
+                <a href="/about">ABOUT US</a>
+                <a href="/con">CONTACT US</a>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {!isTabletOrMobile && (
+          <ul className="list-item pt-1">
+            <li className="nav-item"><a href="/product">PRODUCTS</a></li>
+            <li className="nav-item"><a href="/market">MARKETS</a></li>
+            <li className="nav-item"><a href="/cap">CAPABILITIES</a></li>
+            <li className="nav-item"><a href="/about">ABOUT US</a></li>
+            <li className="nav-item " >
+            <a href="/con">     <Button variant="contained" className="contactus_btn">CONTACT US</Button></a>
             </li>
             
-        
-           
-            {!isTabletOrMobile && (
-              <ul >
-                <li>
-                  <a href="/product">
-                    <Button variant="contained" className="product-btn">
-                      PRODUCTS
-                    </Button>
-                  </a>
-                </li>
-                <li>
-                  <a href="/market">
-                    <Button variant="contained" className="product-btn">
-                      MARKETS
-                    </Button>
-                  </a>
-                </li>
-                <li>
-                  <a href="/cap">
-                    <Button variant="contained" className="product-btn">
-                      CAPABILITIES
-                    </Button>
-                  </a>
-                </li>
-                <li>
-                  <a href="/about">
-                    <Button variant="contained" className="product-btn">
-                      ABOUT US
-                    </Button>
-                  </a>
-                </li>
-                <li>
-                  <a href="/con">
-                    <Button variant="contained" className="product-btn ">
-                      CONTACT US
-                    </Button>
-                  </a>
-                </li>
-              </ul>
-            )}
-            {isTabletOrMobile && (
-              <button className="menu-button mt-2" onClick={toggleDropdown}>
-                <MenuIcon className="menu" />
-              </button>
-            )}
-           
-            </nav>
-         
-            </div>
-      
-      
-    </>
+          </ul>
+        )}
+      </div>
+    </nav>
   );
 }
 
-export default Nav;
+export default Navbar;
